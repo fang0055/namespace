@@ -15,8 +15,8 @@ var FANG0055 = {
             this.style.backgroundColor = "hsl(182deg, 100%, 23%)";
         }
 
-        function mouseOver(e) {
-            e.target.classList.toggle("highlight");
+        function mouseOver() {
+            this.classList.toggle("highlight");
         }
 
         function mouseOut() {
