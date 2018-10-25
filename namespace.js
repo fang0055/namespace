@@ -13,6 +13,7 @@ var FANG0055 = {
         function squareClick() {
             this.style.borderColor = "hsl(175deg, 100%, 100%)";
             this.style.backgroundColor = "hsl(182deg, 100%, 100%)";
+            this.textContent = "Ah HA! Vanished!"
         }
 
         function mouseOver() {
@@ -21,7 +22,8 @@ var FANG0055 = {
 
         function mouseOut() {
             this.classList.toggle("highlight");
-            this.removeAttribute('style'); // remove any style added by the click event
+            this.removeAttribute('style'); 
+            this.textContent = "Link";
         }
     }
 };
