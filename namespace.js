@@ -23,7 +23,7 @@ var FANG0055 = {
         function mouseOut() {
             this.classList.toggle("highlight");
             this.removeAttribute('style'); 
-            this.textContent = "Link";
+            this.textContent = "FANG0055";
         }
     }
 };
