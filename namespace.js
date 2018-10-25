@@ -20,8 +20,8 @@ var FANG0055 = {
         }
 
         function mouseOut() {
-            this.target.classList.toggle("highlight");
-            this.target.removeAttribute('style'); // remove any style added by the click event
+            this.classList.toggle("highlight");
+            this.removeAttribute('style'); // remove any style added by the click event
         }
     }
 };
