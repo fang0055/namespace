@@ -11,7 +11,7 @@ var FANG0055 = {
         square.addEventListener("mouseout", mouseOut);
 
         function squareClick() {
-            this.style.borderColor = "hsl(192deg, 100%, 28%)";
+            this.style.borderColor = "hsl(172deg, 100%, 28%)";
             this.style.backgroundColor = "hsl(182deg, 100%, 23%)";
         }
 
