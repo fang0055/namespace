@@ -15,13 +15,13 @@ var FANG0055 = {
             this.style.backgroundColor = "hsl(182deg, 100%, 23%)";
         }
 
-        function mouseOver(e) {
-            e.target.classList.toggle("highlight");
+        function mouseOver() {
+            this.target.classList.toggle("highlight");
         }
 
         function mouseOut(e) {
-            e.target.classList.toggle("highlight");
-            e.target.removeAttribute('style'); // remove any style added by the click event
+            this.target.classList.toggle("highlight");
+            this.target.removeAttribute('style'); // remove any style added by the click event
         }
     }
 };
