@@ -19,7 +19,7 @@ var FANG0055 = {
             this.target.classList.toggle("highlight");
         }
 
-        function mouseOut(e) {
+        function mouseOut() {
             this.target.classList.toggle("highlight");
             this.target.removeAttribute('style'); // remove any style added by the click event
         }
