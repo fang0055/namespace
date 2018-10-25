@@ -19,9 +19,9 @@ var FANG0055 = {
             e.target.classList.toggle("highlight");
         }
 
-        function mouseOut(e) {
-            e.target.classList.toggle("highlight");
-            e.target.removeAttribute('style'); // remove any style added by the click event
+        function mouseOut() {
+            this.target.classList.toggle("highlight");
+            this.target.removeAttribute('style'); // remove any style added by the click event
         }
     }
 };
