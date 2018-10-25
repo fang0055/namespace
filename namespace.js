@@ -13,7 +13,7 @@ var FANG0055 = {
         function squareClick() {
             this.style.borderColor = "hsl(175deg, 100%, 100%)";
             this.style.backgroundColor = "hsl(182deg, 100%, 100%)";
-            this.textContent = "Ah HA! Vanished!"
+            this.textContent = "Ah Ha! Vanished!"
         }
 
         function mouseOver() {
